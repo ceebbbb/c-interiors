@@ -2,7 +2,7 @@
 
 The functionality of the form validation code is to elimate any errors that may occur when trying to submit a form that isn't completely filled out. The implementation of the code allows alert messages to present themselves on screen when a section of the from hasn't been filled in. This is so that the form has all the requird information when it is sent.
 
-![reference image](/Images/form%20validation%20snippet.jpg)
+<img width="607" alt="Image" src="https://github.com/user-attachments/assets/96e152b6-0bf5-481e-bd6c-d07325816290" />
 
 ![reference image](/Images/form%20validation%20visual.jpg)
 
