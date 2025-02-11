@@ -10,8 +10,8 @@ The functionality of the form validation code is to elimate any errors that may 
 
 The functionality of the code is to make the images scroll left and right as well as scroll smoothly. The implementation of the code is by creating a 900px width container, creating two div's both 900px in width each and then adding a scrollContainer and an eventListener of "wheel" to scroll between the two div's with images on.
 
-![reference image](/Images/image%20scrolling%20snippet.jpg)
-![reference image](/Images/image%20gallery%20visual.jpg)
+![image](/Images/image%20scrolling%20snippet.jpg)
+![image](/Images/image%20gallery%20visual.jpg)
 
 # ACCORDION 
 
