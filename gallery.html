@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+
+    <title>Document</title>
+
+    <nav class="topnav">
+
+        <a href="/home.html">Home</a>
+        <a class="active" href="/gallery.html">Gallery</a>
+        <a href="/contactus.html">Enquiries/Quotations</a>
+    
+        <div class="nav-contact-details">
+    
+          <p>
+             New Projects: tel:+440207 349 8888<br/>
+             General Enquiries: tel:+442076275300<br/>
+             Email Enquiries: janinestone.com
+          </p>
+        
+        </div>
+    
+      </nav>
+
+</head>
+
+<body>
+
+    <div class="gallery-wrap">
+
+        <img src="/Images/backbutton.jpg" id="backbutton">
+
+        <div class="gallery">
+        
+            <div>
+    
+                <span><img src="Images/gallery1.jpg" width="200" height="500"></span>
+                <span><img src="Images/gallery2.jpg" width="200" height="500"></span>
+                <span><img src="Images/gallery3.jpg" width="200" height="500"></span>
+    
+            </div>
+    
+            <div>
+    
+                <span><img src="Images/gallery4.jpg"></span>
+                <span><img src="Images/gallery5.jpg"></span>
+                <span><img src="Images/gallery6.jpg"></span>
+    
+            </div>
+
+        </div>
+
+        <img src="/Images/forwardbutton.jpg" id="forwardbutton">
+
+    </div>
+
+<script>
+
+    let scrollContainer = document.querySelector("gallery");
+    let backbutton = document.getElementById("backbutton");
+    let forwardbutton = document.getElementById("forwardbutton");
+
+    scrollContainer.addEventListener("wheel", (evt) => {
+        evt.preventDefault();
+        scrollContainer.scrollLeft += evt.deltaY;
+    });
+
+    backbutton.addEventListener("click", ()=>{
+        scrollContainer.scrollLeft += 900;
+    })
+
+    forwardbutton.addEventListener("click", ()=>{
+        scrollContainer.scrollLeft -= 900;
+    })
+
+</script>
+   
+</body>
+
+</html>

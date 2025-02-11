@@ -1,0 +1,149 @@
+/* NAVIGATION */
+
+.topnav {
+  background-color: none;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #4c5e63;
+  text-align: center;
+  padding: 25px 15px;
+  text-decoration:underline;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  background-color: none;
+  color: rgb(0, 0, 0);
+}
+
+.nav-contact-details {
+  float: right;
+  margin-right: 4rem;
+  line-height: 1.7rem;
+  font-size: 12px;
+  color: #73848b;
+}
+
+/* FORM HEADER */
+
+.content {
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 1px 0px;
+    margin: 0px 0px;
+    color: #a09696;
+}
+
+.content h1 {
+
+    align-items: center;
+    color: #4c5e63;
+    margin: 400px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+/* FORM */
+
+input[type=text], input[type=email], input[type=checkbox], input[type=number], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  text-align: center;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+a:link, a:visited, a:hover, a:active { color: #6e6b6b;
+    text-decoration: none;
+  }
+
+.button {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    background-color: #0f404f;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.iconcontainer {
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    height: 530px;
+}
+
+.iconcontainer h1 p {
+    line-height: 20px;
+}
+
+.iconcontainer .button .icon{
+    font-size: 40px;
+    align-items: center;
+}
+
+.iconcontainer .button:hover {
+    width: 200px;
+    transition: 0.7s;
+}
+
+.iconcontainer .button:nth-child(1):hover .icon{
+    color: #00226b;
+}
+
+.iconcontainer .button:nth-child(2):hover .icon{
+    color: #E1306C;
+}
+
+.iconcontainer .button:nth-child(3):hover .icon{
+    color: #ff0000;
+}
+
+.iconcontainer .button:nth-child(4):hover .icon{
+    color: #426782;
+}
+
+.iconcontainer .button:nth-child(5):hover .icon{
+    color: #1DA1F2;
+}
+  
+  @media (max-width: 768px) {
+
+  }

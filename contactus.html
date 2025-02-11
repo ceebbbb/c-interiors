@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus.css">
+    <script src="contactus.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Contact Us</title>
+
+    <nav class="topnav">
+
+        <a href="/home.html">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a class="active" href="/contactus.html">Enquiries/Quotations</a>
+    
+        <div class="nav-contact-details">
+    
+          <p>
+             New Projects: tel:+440207 349 8888<br/>
+             General Enquiries: tel:+442076275300<br/>
+             Email Enquiries: janinestone.com
+          </p>
+        
+        </div>
+    
+      </nav>
+      
+</head>
+
+<body>
+
+    <div class="content">
+
+        <h1>Want to get a tailored design quote for your kitchen, bathroom or other home rooms based on your preferences? Submit the form below and receive an email response with our hand picked tailored designs by our specialists within 3-5 days!</h1>
+
+        <div class="fcontainer">
+
+         <form name="enquiryform" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+          
+              <label for="fname">First Name</label>
+               <input type="text" id="fname" name="firstname" placeholder="Your name...">
+          
+              <label for="lname">Last Name</label>
+               <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+          
+              <label for="email">Email</label>
+               <input type="email" id="email" name="email" placeholder="Your email address...">
+               </select>
+
+               <label for="contactno">Contact Number</label>
+               <input type="number" id="contactno" name="contactno" placeholder="Your contact number...">
+               </select>
+          
+              <label for="colours">Colour Options</label>
+              <select id="colours" name="colours" multiple>
+               <option value="blue">Blues</option>
+               <option value="blue">Reds</option>
+               <option value="blue">Oranges</option>
+               <option value="blue">Beiges</option>
+               <option value="blue">Purples</option>
+               <option value="blue">Pinks</option>
+               <option value="blue">Browns</option>
+               <option value="blue">Whites</option>
+               <option value="blue">Blacks</option>
+               <option value="blue">Greys</option>
+               <option value="blue">Neutrals</option>
+
+               </select>
+
+              <label for="design">Design Details</label>
+               <textarea id="design" name="design" placeholder="Write something (add as much detail as possible)" style="height:200px"></textarea>
+
+              <input type="submit" value="Submit">
+          
+            </form>
+
+          </div>
+
+        <p>You can also contact us on social media via the icons below!</p>
+
+        <div class="iconcontainer">
+
+            <div class="button">
+                <a href="https://www.facebook.com/" target="blank">
+                <div class="icon">
+                        <i class="fa fa-facebook"></i>
+                </div>
+            </a>
+            </div>
+    
+            <div class="button">
+                <a href="https://www.instagram.com/" target="blank">
+                <div class="icon">
+                       <i class="fa fa-instagram"></i>
+                </div>
+            </a>
+            </div>
+    
+            <div class="button">
+                <a href="https://www.youtube.com/" target="blank">
+                <div class="icon">
+                        <i class="fa fa-youtube"></i>
+                </div>
+            </a>
+            </div>
+    
+            <div class="button">
+                <a href="https://www.telegram.com/" target="blank">
+                <div class="icon">
+                       <i class="fa fa-telegram"></i>
+                </div>
+            </a>
+            </div>
+    
+            <div class="button">
+                <a href="https://www.twitter.com/">
+                <div class="icon">
+                      <i class="fa fa-twitter"></i>
+                </div>
+            </a>
+            </div>
+        
+        </div>
+    </div>
+
+</body>
+
+</html>
